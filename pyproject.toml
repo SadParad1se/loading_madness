@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "loading_madness"
+version = "0.1.0"
+description = "Shell loading animations"
+authors = ["Jiri Raja <jiri.raja@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "loading_madness", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
